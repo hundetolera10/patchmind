@@ -6,6 +6,5 @@ router = APIRouter()
 def health():
     return {
         "status": "healthy",
-        "service": "PatchMind API",
-        "version": "0.1.0"
+        
     }
